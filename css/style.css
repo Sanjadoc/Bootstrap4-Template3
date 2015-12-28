@@ -1,0 +1,35 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Oleksandr Green
+Updated: December 2015
+Notes:	 For my Education
+
+*/
+
+/* --------------------------------------
+   HTML
+   -------------------------------------- */
+
+html, body {
+    height: 100%;
+}
+
+/* --------------------------------------
+   Cover
+   -------------------------------------- */
+#cover {
+    background: #222 url('../img/stars.png') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
