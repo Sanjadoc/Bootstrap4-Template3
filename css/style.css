@@ -12,7 +12,6 @@ Notes:	 For my Education
 /* --------------------------------------
    HTML
    -------------------------------------- */
-
 html, body {
     height: 100%;
 }
@@ -32,4 +31,32 @@ html, body {
 
 #cover-caption {
     width: 100%;
+}
+
+/* --------------------------------------
+   Content
+   -------------------------------------- */
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('../img/footerBG.png') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    padding: 1.875rem ;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+#footer-main {
+    background: #222;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
 }
